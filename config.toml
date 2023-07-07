@@ -22,24 +22,17 @@ pluralizelisttitles = false
     url        = "/"
     weight     = 1
 
-
-[[menu.main]]
-    name       = "Sobre Nosotros"
-    identifier = "menu.features"
-    url        = "/img/template-easy-customize.png"
-    weight     = 2
-
 [[menu.main]]
     name       = "Servicios"
     identifier = "menu.portfolio"
     url        = "/img/template-homepage.png"
-    weight     = 3
+    weight     = 2
 
 [[menu.main]]
     name       = "Contacto"
     identifier = "menu.allpages"
     url        = "/contact"
-    weight     = 4
+    weight     = 3
 
 # Top bar social links menu
 
@@ -51,26 +44,14 @@ pluralizelisttitles = false
 
 [[menu.topbar]]
     weight = 2
-    name = "GitHub"
-    url = "https://github.com/devcows/hugo-universal-theme"
-    pre = "<i class='fab fa-2x fa-github'></i>"
+    name = "Instagram"
+    url = "https://www.instagram.com/bestconsultoriaygestion/"
+    pre = "<i class='fab fa-2x fa-instagram'></i>"
 
 [[menu.topbar]]
     weight = 3
-    name = "Facebook"
-    url = "http://facebook.com"
-    pre = "<i class='fab fa-2x fa-facebook'></i>"
-
-[[menu.topbar]]
-    weight = 4
-    name = "Twitter"
-    url = "http://twitter.com"
-    pre = "<i class='fab fa-2x fa-twitter'></i>"
-
-[[menu.topbar]]
-    weight = 5
     name = "Email"
-    url = "mailto:hello@universal.com"
+    url = "mailto:consultoriaygestionbest@gmail.com"
     pre = "<i class='fas fa-2x fa-envelope'></i>"
 
 [params]
@@ -81,8 +62,7 @@ pluralizelisttitles = false
     defaultDescription = "Site template made by Devcows using Hugo"
 
     # Social media
-    facebook_site = "" # the Facebook handle of your site ('https://www.facebook.com/HANDLE')
-    twitter_site = "GoHugoIO" # the Twitter handle of your site (without the '@')
+    instagram_site = "" # the Facebook handle of your site ('https://www.instagram.com/bestconsultoriaygestion/')
     default_sharing_image = "img/sharing-default.png"
 
  
@@ -90,8 +70,8 @@ pluralizelisttitles = false
     contact_form_ajax = false
 
 
-    about_us = "<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>"
-    copyright = "Copyright (c) 2015 - 2016, YourCompany; all rights reserved."
+    about_us = "<p>Somos una consultora integral conformada por un equipo de jóvenes profesionales, cuyo foco se encuentra en el Reclutamiento y Selección de personal, Contabilidad de Gestión y Asesoramiento Impositivo. Con nuestro profesionalismo nos dedicamos a cubrir las necesidades de las empresas clientes como así también de aquellos que se encuentran en búsqueda laboral activa.</p>"
+    copyright = "Copyright (c) 2023 - TBD"
 
     # Format dates with Go's time formatting
     date_format = "January 2, 2006"
@@ -117,14 +97,6 @@ pluralizelisttitles = false
 [permalinks]
     blog = "/blog/:year/:month/:day/:filename/"
 
-# Enable or disable top bar with social icons
-[params.topbar]
-    enable = true
-    text = """<p class="hidden-sm hidden-xs">Contact us on +420 777 555 333 or hello@universal.com.</p>
-      <p class="hidden-md hidden-lg"><a href="tel:+420 777 555 333" data-animate-hover="pulse"><i class="fas fa-phone"></i></a>
-      <a href="mailto:hello@universal.com" data-animate-hover="pulse"><i class="fas fa-envelope"></i></a>
-      </p>
-      """
 
 # Enable and disable widgets for the right sidebar
 [params.widgets]
@@ -162,11 +134,8 @@ pluralizelisttitles = false
 
 [params.testimonials]
     enable = true
-    # All testimonials are defined in their own files. You can find example items
-    # at 'exampleSite/data/testimonials'.
-    # For more information take a look at the README.
-    title = "Sobre Nosotros"
-    subtitle = "Aquí tienes información para que puedas conocernos mejor"
+    title = "Sobre nosotras"
+    subtitle = "Somos una consultora integral conformada por un equipo de jóvenes profesionales, cuyo foco se encuentra en el Reclutamiento y Selección de personal, Contabilidad de Gestión y Asesoramiento Impositivo. Con nuestro profesionalismo nos dedicamos a cubrir las necesidades de las empresas clientes como así también de aquellos que se encuentran en búsqueda laboral activa."
 
 [params.see_more]
     enable = true
