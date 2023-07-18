@@ -1,6 +1,0 @@
-[submodule "nahir/nahir/themes/hugo-universal-theme"]
-	path = nahir/nahir/themes/hugo-universal-theme
-	url = https://github.com/devcows/hugo-universal-theme.git
-[submodule "nahir/themes/hugo-universal-theme"]
-	path = nahir/themes/hugo-universal-theme
-	url = https://github.com/devcows/hugo-universal-theme.git
